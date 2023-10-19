@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Om oss</title>
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon-pop/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-pop/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="faviconpop/favicon-16x16.png">
+	<link rel="manifest" href="favicon-pop/site.webmanifest">
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+	<header>
+		
+		<nav>
+			<img src="https://cdn.discordapp.com/attachments/1136997811481755718/1164129218821619773/logo2.png?ex=654216d2&is=652fa1d2&hm=4e1a5577fd8d4edccb7ac2227b5ff4f0b5ee2def7ca7b720bdc1f5f2c4db36e0&" width="100" height="70">
+
+			<button onclick="toggleClass()" class="menu-button" type="button" id="menuButton">
+				<i class="fas fa-bars menu-icon"></i>
+			</button>
+			
+				<ul id="menuDropdown">
+					<li><a href="#">NYHETER</a></li>
+					<li><a href="#">BÖCKER</a></li>
+					<li><a href="#">EVENEMANG</a></li>
+					<li><a href="#">OM OSS</a></li>
+					<li><a href="#">KONTAKT</a></li>
+				</ul>
+			
+		</nav>
+	</header>
+	
+	
+
+
+	<main>
+		<section>
+		<picture class="butikbild">
+			<img src="https://cdn.discordapp.com/attachments/1136997811481755718/1164129382982496286/butik.jpg?ex=654216f9&is=652fa1f9&hm=b17250efefc7b4ae4a8ee93173f4cde672d80a1fb64e57bb9e77a045118255ed&" alt="Hylla med böcker" class="butikbild">
+
+		    </picture>
+			<article>
+				<h1>Om oss</h1>
+
+				<p>
+				Pärmar och Poesi föddes ur en kärlek till böcker och poesi. Vi grundade vår butik med ett enkelt mål i åtanke: att erbjuda en plats där bokälskare kan samlas, upptäcka nya världar och dela sin passion för litteratur. 
+				</p>
+
+                <h1>Vår vision</h1>
+                <p>
+                Vår vision är att vara din främsta destination för allt som har med böcker och poesi att göra. Vi strävar efter att skapa en community för alla som delar vår passion. Vi vill erbjuda de senaste boknyheterna, spännande författare och poeter, och en inspirerande plats för diskussion och delande av läsupplevelser.
+                </p>
+
+                <h1>Vår utbud</h1>
+                <p>
+                Hos Pärmar och Poesi hittar du noggrant valda böcker och poesi från olika genrer och författare. Oavsett om du är intresserad av klassiker, samtida skönlitteratur, poesi eller barnböcker, så har vi något för dig. Vi är ständigt uppdaterade med de senaste utgåvorna och spännande boktips.
+                </p>
+
+                <h1>Vårt team</h1>
+                <p>
+                Bakom Pärmar och Poesi finns ett dedikerat team av bokälskare och poesientsusiaster. Vi är här för att hjälpa dig att hitta de perfekta böckerna för din smak och intressen. Kontakta oss när som helst om du behöver råd, bokrekommendationer eller hjälp med någonting annat. [ <a href="kontakt.html">KONTAKT</a>] 
+                </p>
+
+                <h1>Vår samhällsengagemang</h1>
+                <p>
+                Vi tror på att litteratur och poesi kan förändra liv och samhällen. Därför är vi engagerade i att främja läsning och skrivande. Pärmar och Poesi stöder olika litterära initiativ och evenemang, och vi deltar aktivt i att främja kreativitet och lärande genom ord.
+                </p>
+			</article>
+		</section>
+
+		
+
+	</main>
+
+
+	<footer>
+			<a href="#"><i class="fas fa-address-book"></i></a>
+			<a href="#"><i class="fas fa-at"></i></a>
+			<a href="#"><i class="fas fa-phone"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-facebook-square"></i></a>
+			<a href="#"><i class="fab fa-facebook-messenger"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+	</footer>
+
+	<script>
+		var menuButton = document.querySelector("#menuButton");
+		var menuDropdown = document.querySelector("#menuDropdown");
+
+				menuButton.addEventListener("click", function () {
+					menuDropdown.classList.toggle("open");
+					});
+
+	</script>
+
+
+</body>
+</html>
